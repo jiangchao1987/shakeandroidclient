@@ -1,0 +1,177 @@
+<resources>
+
+    <style name="Customer_MainTabsBottom">
+        <item name="android:textColor">@color/main_tabs_text_color</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingTop">2.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">5.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+
+    <style name="CustomerTitleFrame">
+        <item name="android:background">@drawable/title_bg</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">50.0dip</item>
+    </style>
+
+    <style name="Customer_Title_Text">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">40.0dip</item>
+    </style>
+
+    <style name="Customer_Manage">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textColor">@color/manage_text_color</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:background">@drawable/more_top_bg</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">50.0dip</item>
+        <item name="android:drawableRight">@drawable/drawicon</item>
+    </style>
+
+    <style name="Customer_FriendTabs">
+        <item name="android:textColor">@color/friend_title_color</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:button">@null</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+
+    <style name="Customer_InfoTitle">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textColor">@color/info_title_color</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:background">@drawable/info_title_bg</item>
+        <item name="android:paddingLeft">5.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">40.0dip</item>
+    </style>
+
+    <style name="Customer_InfoContent">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textColor">@color/info_content_color</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:background">@color/white_color</item>
+        <item name="android:paddingLeft">5.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">35.0dip</item>
+    </style>
+
+    <style name="Customer_InfoContentEdit">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textColor">@color/info_content_color</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:background">@color/white_color</item>
+        <item name="android:paddingLeft">5.0dip</item>
+        <item name="android:paddingRight">5.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">35.0dip</item>
+        <item name="android:drawableRight">@drawable/drawicon</item>
+    </style>
+
+    <style name="Customer_Back">
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:layout_gravity">left|center</item>
+        <item name="android:background">@drawable/back</item>
+        <item name="android:layout_width">55.0dip</item>
+        <item name="android:layout_height">40.0dip</item>
+        <item name="android:layout_marginLeft">0.0dip</item>
+    </style>
+
+    <style name="Customer_submit">
+        <item name="android:textColor">@color/color_black</item>
+        <item name="android:layout_gravity">right|center</item>
+        <item name="android:background">@drawable/login_btn_bg</item>
+        <item name="android:layout_marginRight">10.0dip</item>
+        <item name="android:text">发送</item>
+    </style>
+
+    <style name="Customer_Refresh">
+        <item name="android:layout_gravity">right|center</item>
+        <item name="android:background">@drawable/refresh</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">3.0dip</item>
+    </style>
+
+    <style name="Customer_FrinedListTitle">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff595c61</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">#ffced2d7</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingTop">2.0dip</item>
+        <item name="android:paddingBottom">2.0dip</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Customer_MessageTitle">
+        <item name="android:enabled">false</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10.0dip</item>
+        <item name="android:layout_marginRight">10.0dip</item>
+    </style>
+
+    <style name="CustomCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkboxdraw</item>
+    </style>
+
+    <style name="CustomListView" parent="@android:style/Widget.ListView">
+        <item name="android:scrollbarSize">10.0dip</item>
+        <item name="android:cacheColorHint">#00000000</item>
+    </style>
+
+    <style name="Default.NoTitleBar" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:textColorPrimaryInverse">@android:color/black</item>
+        <item name="android:windowBackground">@drawable/bg</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleSize">42.0dip</item>
+        <item name="android:checkboxStyle">@style/CustomCheckBox</item>
+        <item name="android:listViewStyle">@style/CustomListView</item>
+    </style>
+
+    <style name="Customer_Dialog_Theme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="ContentOverlay" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="Customer_GiftLibTab">
+        <item name="android:textSize">10.0dip</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+
+</resources>
