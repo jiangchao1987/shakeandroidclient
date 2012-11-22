@@ -9,8 +9,9 @@ package com.clover.shakeac;
 
 public final class R {
     public static final class anim {
-        public static final int animin=0x7f040000;
-        public static final int animout=0x7f040001;
+        public static final int welcome_alpha=0x7f040000;
+        public static final int zoom_enter=0x7f040001;
+        public static final int zoom_exit=0x7f040002;
     }
     public static final class attr {
     }
@@ -116,25 +117,28 @@ public final class R {
         public static final int refresh=0x7f020018;
         public static final int refresh_n=0x7f020019;
         public static final int refresh_s=0x7f02001a;
-        public static final int title_bg=0x7f02001b;
-        public static final int title_logo=0x7f02001c;
+        public static final int scan_bg=0x7f02001b;
+        public static final int title_bg=0x7f02001c;
+        public static final int title_logo=0x7f02001d;
     }
     public static final class id {
-        public static final int TextView01=0x7f0a0006;
-        public static final int TextView02=0x7f0a0008;
+        public static final int TextView01=0x7f0a0007;
+        public static final int TextView02=0x7f0a0009;
         public static final int find_psw_btn=0x7f0a0004;
         public static final int login_btn=0x7f0a0002;
-        public static final int login_password_edit_text=0x7f0a0007;
-        public static final int login_username_edit_text=0x7f0a0005;
-        public static final int menu_settings=0x7f0a0009;
+        public static final int login_password_edit_text=0x7f0a0008;
+        public static final int login_username_edit_text=0x7f0a0006;
+        public static final int menu_settings=0x7f0a000a;
         public static final int regist_btn=0x7f0a0003;
         public static final int titie_frame=0x7f0a0000;
         public static final int title_text_view=0x7f0a0001;
+        public static final int welcome_image_view=0x7f0a0005;
     }
     public static final class layout {
         public static final int activity_login=0x7f030000;
         public static final int activity_main=0x7f030001;
-        public static final int login_layout=0x7f030002;
+        public static final int activity_welcome=0x7f030002;
+        public static final int login_layout=0x7f030003;
     }
     public static final class menu {
         public static final int activity_login=0x7f090000;

@@ -21,6 +21,7 @@ import com.clover.shakeac.model.Result;
 import com.clover.shakeac.model.User;
 
 public class LoginActivity extends Activity {
+	
 	private RestClient client;
     private StateUtil stateUtil;
     private SharedUtil sharedUtil;
@@ -115,7 +116,7 @@ public class LoginActivity extends Activity {
 
             Intent intent = new Intent(LoginActivity.this, MainActivity.class);
             startActivity(intent);
-            overridePendingTransition(R.anim.animout, R.anim.animin);
+            overridePendingTransition(R.anim.zoom_enter, R.anim.zoom_exit);
             LoginActivity.this.finish();
         }
 	}
