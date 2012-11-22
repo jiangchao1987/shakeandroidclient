@@ -60,9 +60,9 @@ public class RestClient {
 		return client;
 	}
 	
-	public String login(String email, String password) {
+	public String login(String username, String password) {
         try {
-            HttpGet get = new HttpGet(contextPath + "/login/login.php?email=" + email + "&password=" + password);
+            HttpGet get = new HttpGet(contextPath + String.format("/login/udid/%s/password/%s", username, password));
             HttpResponse resp = null;
             synchronized (this) {
                 resp = getClient().execute(get);
